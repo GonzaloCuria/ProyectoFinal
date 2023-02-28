@@ -1,0 +1,77 @@
+* {
+    font-family: 'Lora', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.lista-intereses {
+    list-style: circle;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0px;
+}
+
+header {
+    background-color: #3D4FB2;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    background-color: grey;
+}
+
+nav {
+    background-color: grey;
+}
+
+#ul-nav  {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.p-idiomas {
+    margin-bottom: 0px;
+}
+
+#ul-datospersonales {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.revelarse {
+    display: none;
+}
+
+#imagen-de-perfil {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+img {
+    width: 90px;
+    height: 120px;
+}
+}
+
+@media (min-width: 1300px) {
+    img {
+        width: 300px;
+        height: 350px;
+    }
+    button {
+        padding: 20px;
+    }
+}
